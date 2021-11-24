@@ -23,28 +23,7 @@
     <div class="main">
         <div class="wrapper">
             <div class="header-top__wrapper">
-                <div class="header-top">
-                    <a href="/landing.html" class="header__logo no-deco font-black">
-                        <i class="fas fa-bookmark"></i>
-                        Books.
-                    </a>
-                    <div class="header__searchbar">
-                        <input type="text" placeholder="Find your favourite books..." class="searchbar__input">
-                        <div class="searchbar__logo">
-                            <i class="fas fa-search"></i>
-                        </div>   
-                    </div>
-                    <div class="header-right">
-                        <a href="/cart.html" class="shopping-cart__link"><i class="fas fa-shopping-cart header-right__logo"></i></a>
-                        <div class="header-right__user">
-                            <i class="far fa-user header-right__logo"></i>
-                            <ul class="user-menu">
-                                <li class="sign "><a class="sign__link sign__link--sign-up si no-deco" href="">Sign Up</a></li>
-                                <li class="sign "><a class="sign__link sign__link--log-in no-deco" href="">Log In</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+                <jsp:include page="header-top.jsp"/>
             </div>
 
             <div class="cart-wrapper">

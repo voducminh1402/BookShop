@@ -107,7 +107,7 @@
                         </div>
                         <div class="buy-btns">
                             <button class="btn btn--buy btn--primary">Buy Now</button>
-                            <button class="btn btn--buy btn--secondary"><i class="cart fas fa-cart-plus"></i>Add to cart</button>
+                            <a href="MainController?action=AddToCart&ID=${requestScope.PRODUCT_DETAIL.ID}" class="btn btn--buy btn--secondary"><i class="cart fas fa-cart-plus"></i>Add to cart</a>
                         </div>
                     </div>
                 </div>
